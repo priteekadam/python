@@ -1,0 +1,6 @@
+marks = tuple(map(int , input("Enter marks separated by comma").split(","))) 
+# Tip: List can also be creating using above statement by simply writing list inplace of tuple. 
+val = int(input('Enter any marks: ')) 
+n = marks.count(val) 
+indx = marks.index(val) 
+print("The marks" , val , "comes" , n , "times in Tuple and first appear at index number" , indx) 

@@ -1,0 +1,10 @@
+fruits = ['Apple', 'Banana', 'Grapes', 'Apple'] 
+search = input("Enter the fruit to be searched for: ") 
+if search in fruits: 
+ print(fruits.count(search)) 
+ print(search, "is present in List at Index number" , fruits.index(search)) 
+ print("Current list is" ,fruits) 
+if search not in fruits: # we can also use "else:" here 
+ fruits.append(search) 
+ print(search, 'was not present but added successfully') 
+ print("Updated list is" , fruits)

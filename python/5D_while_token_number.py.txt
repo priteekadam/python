@@ -1,0 +1,9 @@
+print("Hello everyone, Welcome to the clinic.") 
+token = 1 
+c = "Y" 
+while(c == "Y"): 
+ print("Token number" ,token, "may please come in") 
+ c=input("Continue? (Y/N): ") 
+ # Asks whether to continue, Y will continue
+ token=token+1 # Updating/Incrementing token number by 1
+print("We are stopping here, Thank You!") 

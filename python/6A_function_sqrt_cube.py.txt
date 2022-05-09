@@ -1,0 +1,22 @@
+def hello(): # a function without any parameter & no return value
+ print("*Welcome to learn python functions*") 
+ 
+def sqr(r): #a function with 1 parameter, Syntax: def function_name(parameters): 
+ s = r * r 
+ print("Square of ",r,"=", s) 
+ 
+def cube(r): #a function with 1 parameter & 1 return value
+ c = r*r*r 
+ return(c) 
+ # returning the value of c to the location from where cube() called
+hello() # calling hello() function without passing any argument
+sqr(2) #Syntax: function_name(argument):
+sqr(7) # passing 2 as argument to sqr() function
+sqr(13) 
+print("--------------") 
+x = cube(2) # passing value 2 as argument to cube() function
+y = cube(7) 
+z = cube(13) 
+print("Cube of 2 =", x) 
+print("Cube of 7 =", y) 
+print("Cube of 13 =", z) 

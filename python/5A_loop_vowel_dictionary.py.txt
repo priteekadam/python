@@ -1,0 +1,14 @@
+vowels = ['a','e','i','o','u'] 
+word = input("Provide a word to search for vowels: ") 
+lcword = word.lower() # lcword storing lowercase copy of word
+found = {} 
+for ch in lcword: 
+    if ch in vowels: 
+        if ch in found: 
+             found[ch] += 1 
+        else: 
+             found[ch] = 1 
+if len(found) != 0: 
+ print("Vowel count is" , found) 
+else: 
+ print(word , "doesn't contain any vowel")

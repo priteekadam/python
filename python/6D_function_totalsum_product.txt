@@ -1,0 +1,20 @@
+def totalSum(*arguments): 
+ sum = 0 
+ for num in arguments: 
+     sum = sum + num #i.e., sum += num 
+ print(sum) 
+ 
+# Function call 
+totalSum(5, 4, 3, 2, 1) 
+ #-------------------------------------------------------------------------------------------------------------------------------- 
+# totalProd Function definition 
+def totalProd(*arguments): 
+ message = "Hi from totalProd() Function and product value is : " 
+ prod = 1 # we can’t put prod=0, otherwise all products will be 0
+ for num in arguments: 
+     prod = prod * num #i.e., prod *= num 
+ return(message , prod ) 
+ 
+# Function call 
+msg ,product = totalProd(2,5,11) 
+print( msg , product )

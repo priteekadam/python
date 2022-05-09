@@ -1,0 +1,16 @@
+print("*Let us write a program to find square of given numbers also sum of all square values.*")
+
+def sqrSum( p1 , p2 , p3 ): 
+ sqrp1 = p1 * p1 
+ sqrp2 = p2 * p2 
+ sqrp3 = p3 * p3 
+ sum = sqrp1 + sqrp2 + sqrp3 
+ msg = "Hi from sqrSum() function !" 
+ return ( msg , sqrp1, sqrp2, sqrp3 , sum ) 
+num1, num2, num3 = 2, 5, 10
+a, b, c, d , x = sqrSum( num1 , num2 , num3 )
+print( a ) 
+print("Square of", num1 , "is" , b ) 
+print("Square of", num2 , "is" , c ) 
+print("Square of", num3 , "is" , d ) 
+print("Sum of squares of", num1 , "," , num2 , "and" , num3 , "is = " , x) 

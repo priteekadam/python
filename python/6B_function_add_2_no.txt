@@ -1,0 +1,17 @@
+def hello(): # function without any input parameter & no return value
+ print("*Welcome to learn python functions with 2 parameters.*") 
+def add( p1 , p2 ): # function with 2 input parameters & no return value
+ sum = p1 + p2 
+ print("Sum of given numbers",p1,"&",ap2," is = " , sum) 
+ 
+def mult( p1 , p2 ): # function 2 input parameter & no return value
+ prod = c * d 
+ print("Product of given numbers is = " , prod) 
+hello() # Calling hello() function
+x , y = 4,6 # shows how to assign values to more than one variable in single statement
+add( x , y ) # Calling add() function
+# Taking 2 inputs from user using split() and converting into integer using int() separately
+a , b = input("enter any 2 number separated by space to add : ").split() 
+a = int( a ) 
+b = int ( b) 
+add( a , b ) 

@@ -1,0 +1,23 @@
+from matplotlib import pyplot as plt 
+x = [1, 2, 3, 4, 5] 
+y = [10, 5, 8, 6, 7] 
+plt.xlabel("X-axis") 
+plt.ylabel("Y-axis") 
+plt.title("Sample Graph-2 for Lab") 
+plt.axis([0,6,0,12]) 
+plt.grid() 
+
+“”” To show graph with different colors: 
+k=black, y=yellow, r=red, g=green, b=blue””” 
+
+plt.plot(x,y, color = 'y') # y = yellow line
+plt.plot(x,y, color = 'g' ) # g = green line
+
+“”” To show graph with different shapes: 
+--=dashedLine, o=circle, ^=triengle, *=star, 
+d=diamond””” 
+
+plt.plot(x,y, 'r--') # r-- = red color dashed Line
+plt.plot(x,y, ' b^ ' ) # b^ = blue triangle 
+plt.plot(x,y,'kd') # kd = black diamond
+plt.show()

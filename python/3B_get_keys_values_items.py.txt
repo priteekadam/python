@@ -1,0 +1,11 @@
+dict = {10:'Finolex', 20:'Academy', 30:'Ratnagiri'} 
+print('original: ', dict) 
+# Accessing value for key using following 2 methods 
+print(dict.get(10)) # get value of key=10
+print(dict[30]) # get value of key=30
+# Accessing keys for the dictionary 
+print(dict.keys()) 
+# Accessing keys for the dictionary 
+print(dict.values()) 
+# Printing all the items of the Dictionary 
+print(dict.items()) 

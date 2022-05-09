@@ -1,0 +1,9 @@
+first = input("Enter first name: ") 
+last = input("Enter last name: ") 
+#concatenate 1st letter of first name & 4 letters from last name. 
+x = first[0] + last[:4]
+# String Slicing & Concatenating using + operator
+y = x.capitalize() 
+uname = "#" + y 
+#Concatenate: Adding '#' before Capitalized username
+print("Your Username is:" , uname) 

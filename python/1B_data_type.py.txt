@@ -1,0 +1,18 @@
+print("This program shows how print function works and how to find data type of variable.") 
+a = 5 
+print("Type of a is: " , type(a)) #method-1 to use print()
+
+print("Type of a=" , a , "is---" , type(a)) #method-1 to use print()
+
+b = 5.0 
+print("Type of b is: " , type(b)) 
+print("Type of b=" , b , "is---", type(b)) 
+c = 3+6j 
+print("Type of c is: " , type(c)) 
+print("Type of c=" , c , "is---" , type(c)) 
+d = "Ratnagiri" 
+print("Type of d is: " , type(d)) 
+print("Type of d=" , d , "is---" , type(d)) 
+e = [2, 5, "FAMT", 1.23] 
+print("Type of e is: " , type(e)) 
+print("Type of e=" , e , "is---" , type(e))

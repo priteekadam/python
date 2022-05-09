@@ -1,0 +1,11 @@
+stock = {'Apple':1,'Banana':1,'Mango':1} 
+print('Initial stock is: ' , stock) 
+fruit = input("Give the fruit name to be entered: ") 
+if fruit in stock: 
+ stock[fruit] += 1 
+ print(fruit , "is already present in Dictionary(stock) and value is updated") 
+ print("Updated stock is", stock) 
+else: # we can also use “if fruit not in stock:” here
+ stock[fruit] = 1 
+ print(fruit , 'was not present in Dictionary(stock) but added successfully') 
+ print("Updated list is" , stock)

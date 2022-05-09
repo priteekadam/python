@@ -1,0 +1,25 @@
+# Importing matplotlib module 
+from matplotlib import pyplot as plt 
+# OR use: import matplotlib.pyplot as plt
+# X-axis values 
+x = [1, 2, 3, 4, 5] 
+x2= [0.5, 2, 3,5.5] 
+# Y-axis values 
+y = [10, 5, 8, 6, 7] 
+y2= [2, 9, 4,3] 
+# Set the label for the x-axis 
+plt.xlabel("X-axis") 
+# Set the label for the y-axis 
+plt.ylabel("Y-axis") 
+# Set the Title of the graph 
+plt.title("Sample Graph for Lab") 
+# Set the axis properties 
+plt.axis( [ 0, 6, 0, 12 ] ) 
+# Show grid lines 
+plt.grid() 
+# Function to plot, set label for legend and set linewidth of anyone line to 3 
+plt.plot( x, y, label = "graph-1") 
+plt.plot( x2, y2, label = "graph-2", linewidth=3) # if linewidth is not set default value=1.5
+plt.legend() 
+# Function to show the plot 
+plt.show()

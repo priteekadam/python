@@ -1,0 +1,11 @@
+print("This program shows different ways of using print() statement.") 
+x , y = 15 , 25 
+print( x , y ) 
+#Method-1 
+print("The first number is =" , x , "& second number is =" , y , ".") 
+
+#Method-2: use of .format() method 
+print("The first number is = {} & second number is = {}." .format( x , y )) 
+
+#Method-3: use of f-string method 
+print(f"The first number is = {x} & second number is = {y}.")

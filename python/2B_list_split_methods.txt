@@ -1,0 +1,10 @@
+str1 = "Rupesh" 
+str2 = "Hello All" 
+str3 = "Python features makes it the best language for AIML." 
+lst1 = list(str1) #make a list of characters of given word
+lst2 = list(str2) 
+lst3 = str3.split() #make a list of words of given string/text
+print("List of letters/characters of" , str1 , "is" , lst1) 
+print("List of letters/characters of" , str2 , "is" , lst2) 
+print("Text:" , str3) 
+print("List of words of Text using split() is" , lst3) 

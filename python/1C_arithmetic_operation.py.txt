@@ -1,0 +1,11 @@
+print("This program shows use of different Arithmetic Operator") 
+x = 10; y = 3 
+print("Addition of x=",x,"& y=" , y , "is" , x + y ) 
+print("Subtraction of x = {} & y = {} is {}".format( x , y , x - y)) 
+print("Multiplication of x=" , x , "& y=" , y , "is" , x*y )
+
+print("Division of x= {} & y= {} is {}".format( x , y , x / y )) 
+print("Floor Division of x=" , x , "& y=" , y , "is" , x // y ) 
+print("Modulus(gives remainder of division) of x= {} & y= {} is {}".format( x , y , x % y )) 
+print("Exponent(gives x raised to y) of x=" , x , "& y=" , y , "is" , x**y )
+print("Average of x= {} & y= {} is {}".format( x , y , (x + y)/2 ))

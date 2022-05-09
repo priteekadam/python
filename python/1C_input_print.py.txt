@@ -1,0 +1,7 @@
+print("This program shows how input function works.") 
+a = int(input("Enter the value of a: ")) 
+b = int(input("Enter the value of b: ")) 
+c = a + b 
+print("The sum of a & b is = " , c) #OR use: print(“The sum of a & b is = {}” .format( c ))
+d = a-b 
+print("The subtraction of a & b is = " , d)

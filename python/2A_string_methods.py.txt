@@ -1,0 +1,6 @@
+text = "India is mother of algebra, zero, chess, pi value, diamond mining etc." 
+print( text ) 
+print("Capitalize:" , text.capitalize()) 
+print("TitleCase:" , text.title()) 
+print("UpperCase:" , text.upper()) 
+print("LowerCase:" , text.lower())

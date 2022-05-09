@@ -1,0 +1,12 @@
+dict1 = {'A': 'Finolex', 'B': 'Industry'} 
+dict2 = {'B': 'Academy', 'C': 'Ratnagiri'} 
+# Dictionary before Updation 
+print("Original Dictionary:") 
+print("Dictionary1: " , dict1) 
+print("Dictionary2: " , dict2) 
+ 
+# Update the value of key 'B' 
+dict1.update(dict2) 
+print("Dictionary after Updation:") 
+print("Dictionary1: " , dict1) 
+print("Dictionary2: " , dict2)

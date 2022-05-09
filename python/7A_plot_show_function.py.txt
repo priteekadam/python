@@ -1,0 +1,13 @@
+from matplotlib import pyplot as plt 
+# OR use: import matplotlib.pyplot as plt
+# X-axis values 
+x = [1, 2, 3, 4, 5] 
+ 
+# Y-axis values 
+y = [10, 5, 8, 6, 7] 
+ 
+# Function to plot 
+plt.plot(x,y) 
+ 
+# Function to show the plot 
+plt.show()
